@@ -1,0 +1,26 @@
+a{
+	color: orange; 
+	text-decoration: none;
+}
+
+h1{
+	font-family: sans-serif;
+}
+
+div, h4{
+	width: 500px;
+	background: lightblue;
+	margin: auto;
+	text-align: center;
+}
+#emphasis{
+	color: red;
+}
+.group{
+
+	color: green;
+	}
+
+li:nth-child(3){
+	color: purple;
+}

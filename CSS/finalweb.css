@@ -1,0 +1,179 @@
+
+
+
+/****************
+***=NAVIGATION***
+*****************/
+nav li{
+	display: inline;
+}
+nav{
+	float: right;
+	margin-top: 11px;
+
+}
+/****************
+***=HEADER***
+*****************/
+.banner{
+	background: url(../img/paris.jpg) no-repeat;
+	height: 231px;
+	width: 695px;
+	clear: both;
+
+}
+.banner h2{
+	color: white;
+	font-size: 28px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	width: 350px;
+	height: 125px;
+	margin: 100px 5px 0px 5px;
+	padding-left: 5px;
+	background: rgba(0,0,0,.5);
+	font-weight: normal;
+}
+header h1{
+	float: left;
+	margin-bottom: 0px;
+	margin-left: 5px;
+
+}
+header{
+	overflow: hidden;
+}
+h3{
+	line-height: 1em;
+}
+/****************
+***=BLACKBOX***
+*****************/
+.emptybox{
+	background: black;
+	height: 231px;
+	float: right;
+}
+.grid_3{
+	float: right;
+}
+
+/****************
+***=MAIN***
+*****************/
+.main{
+	margin-top: 20px;
+	clear: both;
+
+}
+/****************
+***=FOOTER***
+*****************/
+footer{
+	clear: both;
+	border-top: 1px solid #d1d1d1;
+	padding-top: 20px;
+	margin-top: 30px;
+	}
+/****************
+***=MISC***
+*****************/
+a{
+	color: #7e7e7e;
+	text-decoration: none;
+}
+a:hover, .selected {
+	color: black;
+}
+
+nav a{
+	text-transform: lowercase;
+}
+li{
+	margin-left: 24px;
+}
+.button{
+	background: #242324;
+	padding: 6px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+.button:hover {
+	background: black;
+	color: white;
+}
+p{
+	font: 13px;
+	line-height: 20px;
+	color: #353535;
+}
+h3{
+	letter-spacing: -1px;
+	font-size: 26px;
+	font-weight: normal;
+	border-bottom: 1px solid #d1d1d1;
+	padding-bottom: 21px;
+	margin-bottom: 15px;
+}
+.container_24{
+	margin-top: 10px;
+}
+blockquote, blockquote p{
+	font-size: 15px;
+	line-height: 20px;
+	font-style: italic;
+	color: #0e0e0e;
+	
+}
+blockquote{
+	position: relative;  /*making this relative postioning makes coma object's absolute positioning to this parent */
+}
+.main blockquote p:first-child:before {
+	content: '“';
+	font-size: 40px;
+	color: #bfbfbf;
+	font-style: italic;
+	position: absolute;
+	top: 7px;
+	left: 5px;
+
+	
+
+}
+.main blockquote p:last-child:after {
+	content: '”';
+	font-size: 40px;
+	color: #bfbfbf;
+	font-style: italic;
+	float: right;
+	position: absolute;
+	top: 33px;
+	left: 180px;
+
+
+}
+.main blockquote p{
+	padding-left: 30px;
+
+}
+/****************
+***=WORK***
+*****************/
+.work h2, h4{
+	font-weight: normal;
+}
+.work h2{
+	font-size: 26px;
+	margin-bottom: 0px;
+}
+.work img{
+	margin-bottom: 20px;
+}
+h4{
+	color: #787878;
+	line-height: 1.2em;
+	border-bottom: 1px solid #d1d1d1;
+	padding-bottom: 33px;
+	margin-bottom: 30px;
+
+}
