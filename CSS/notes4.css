@@ -1,0 +1,130 @@
+#title{
+	background: url(../img/favicon-256.png) no-repeat;
+	height: 256px;
+	width: 256px;
+	text-indent: -999px;
+	margin: auto;
+	margin-top: 50px
+
+}
+h2{
+	font-size: 120px;
+	text-align: center;
+	margin: auto;
+	font-family: 'Bubbler One', sans-serif;
+	letter-spacing: 10px;
+	color: #456;
+	text-transform: uppercase;
+	text-shadow: 
+		-5px 5px 1px lightblue,
+		-8px 8px 0px #555;
+
+
+}
+body{
+	/*background: #766*/
+	margin: 0px; 
+	/*to get rid of corner space put by browser default setting*/
+
+}
+.box{
+	width: 700px;
+	height: 400px;
+	background: #f3f3f3;
+	margin: auto;
+	position: absolute;
+	left: 50px; top: 10px;
+	/* in orer to move objects left right etc possiont is required
+	absolute is required in oreder to possition relative to parent 
+	whether thats body or h1 etc*/
+
+
+}
+.wrap{
+	width: 800px;
+	height: 200px;
+	background: #666;
+	margin: auto;
+	position: relative;
+	
+}
+li{
+	list-style: none;
+	display: inline;
+	padding-left: 5px;
+	text-transform: capitalize;
+}
+li:after {
+	content: '\\';
+	padding: 0px 2px;
+	color: #999;
+} 
+li:last-child:after{
+	content: none;
+}
+
+ul{
+	margin: 0px;
+	padding-left: 0px;
+	font-style: italic;
+	font-size: 14px;
+
+}
+#cont{
+	text-align: right;
+	padding-right: 10px;
+	text-decoration: none;
+}
+#cont:before{
+	content: '(';
+}
+#cont:after{
+	content: ')';
+}
+#text{
+	width: 60%;
+	float: right;
+	font-family: 'Dosis';
+	color: black;
+}
+img{
+	float: left;
+	width:250px;
+	height: 250px;
+	margin: 10px 10px;
+}
+article{
+	margin: 5px 5px;
+}
+article h1{
+	line-height: 39px;
+	margin: 0px;
+	padding-top: 8px;
+
+}
+a{
+	color: teal;
+	text-decoration: none;
+}
+.post{
+	background: white;
+	color: #999;
+	padding: 3px;
+	float: left;
+}
+article p{
+	clear: both;
+}
+.post a{
+	color: #999;
+	
+	font-style: italic;
+
+}
+a:hover {
+	color: black;
+}
+p{
+	font-size: 14px;
+	line-height: 21px;
+}

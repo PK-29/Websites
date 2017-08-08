@@ -1,0 +1,61 @@
+.wrap{
+	min-width: 500px; /*min width when resiizing browser
+	width: 80%; /*80% of the entire browser*/
+	margin: auto;
+	background: red;
+	overflow: hidden;
+	font-family: sans-serif;
+
+}
+.content{
+	background: lightblue;
+	float: left; /* when float is used its no longer part of wrap or the body*/
+	width: 70%; /*70 percent of 80%*/
+}
+aside {
+	background: orange;
+
+	float: left;
+	width: 30%;
+
+}
+.content, aside{
+	height: 600px;
+}
+aside ul, h1, h2, p{
+	list-style: none;
+	padding-left: 10px;
+
+}
+.content ul{
+	padding-left: 10px;
+}
+.content .bullets{
+	list-style: none;
+	display: inline;
+	padding-right: 10px;
+
+}
+ul a{
+	text-decoration: none;
+	color:  purple;
+}
+ul a:hover{
+	text-decoration: underline;
+	color: green;
+}
+form li{
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+ label{
+	display: block;
+	cursor: pointer;
+	color: blue;
+	padding-bottom: 5px; 
+}
+textarea{
+	width: 450px;
+	height: 200px;
+}

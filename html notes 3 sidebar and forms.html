@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="CSS/notes3.css">
+	<title>note3</title>
+</head>
+
+<body>
+<div class="wrap">
+
+
+<!--IMAGE REPLACEMENT-->
+	<h1>Notetote</h1>
+
+	<div class="content">
+	<ul>
+		<li class="bullets"><a href="#">Home</a></li>
+		<li class="bullets"><a href="#">About</a></li>
+		<li class="bullets"><a href="#">Portfolio</a></li>
+		<li class="bullets"><a href="#">Contact</a></li>
+	</ul>
+	<h2>Main content heading</h2>
+		<p> My blog</p>
+
+		<!--FORM TO MAKE A Form/comment Section
+	method is how data is transfered to a server
+	action where the data should be posted whether the current page
+	or directed page
+	POST does not update the page wiht the comments while GET does by changing
+	the url-->
+
+	<form action="" method="get">
+		<ul>
+			<li>
+				<label for="name">Enter Name</label>
+				<input id="name" />
+				<!--notice "name" is used in label and id inorder to connect them so when the label enter name is clikced input activates-->
+			</li>
+		
+			<li>
+				<label for="comment">What ya think?</label>
+				<textarea id="comment" name="comment" ></textarea>
+			</li>
+
+			<li>
+				<label for="blog">Do you like my blog?</label>
+				<input type="checkbox" name="blog" id="blog">
+			</li>
+			<li>
+				<label for="">How was it?</label>
+				<input type="radio"/>Bad
+				<input type="radio"/>Good
+				<input type="radio"/>Great
+				<input type="radio"/>Nooice
+			</li>
+		
+			<input type="submit" value="Go">
+		
+		</ul>
+	</form>
+	</div>
+
+	
+
+	<aside>
+	<h2>Sidebar</h2>
+		<ul>
+			<li>
+			<!--use # if not linking to anything specefic yet-->
+				<a href="#">Home</a>
+			</li>
+			<li>
+				<a href="#">About</a>
+			</li>
+			<li>
+				<a href="#">Contact</a>
+			</li>
+		</ul>
+
+	</aside>
+
+	
+
+</body>
+</html>
